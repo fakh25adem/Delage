@@ -42,6 +42,12 @@ const Footer = (props) => {
                                     <li><Link style={{color:'white'}} onClick={ClickHandler} to="/produit">Nos produits</Link></li>
                                     <li><Link style={{color:'white'}} onClick={ClickHandler} to="/histoire">Notre histoire</Link></li>
                                     <li><Link style={{color:'white'}} onClick={ClickHandler} to="/contact">Contact</Link></li>
+                                    <li><Link style={{color:'white'}} onClick={ClickHandler} to="/adjointes">Adjointes</Link></li>
+                                    <li><Link style={{color:'white'}} onClick={ClickHandler} to="/conjointes">Conjointe</Link></li>
+                                    <li><Link style={{color:'white'}} onClick={ClickHandler} to="/orthodontiques">Orthodontie</Link></li>
+                                    <li><Link style={{color:'white'}} onClick={ClickHandler} to="/travaille">Travaille</Link></li>
+
+
                                 </ul>
                             </div>
                         </div>
