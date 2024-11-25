@@ -28,7 +28,7 @@ const ServiceSection = (props) => {
                                 <div className="content">
                                     <h2 >{servic.title}</h2>
                                     <p  >{servic.description}</p>
-                                    <Link onClick={ClickHandler} to="#"><i className="flaticon-right-arrow"></i></Link>
+                                    <a href={`/${servic.slug}`}><i className="flaticon-right-arrow"></i></a>
                                 </div>
                             </div>
                         </div>

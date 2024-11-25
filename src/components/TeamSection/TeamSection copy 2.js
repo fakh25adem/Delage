@@ -68,7 +68,7 @@ const TeamSection = () => {
                                         <p style={styles.text}>
                                             Découvrez comment nos valeurs font la différence au quotidien.
                                         </p>
-                                        <a href="/adjointe" style={styles.link}>
+                                        <a href="#" style={styles.link}>
                                             En savoir plus ...
                                         </a>
                                     </div>

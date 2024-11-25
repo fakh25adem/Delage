@@ -1,5 +1,5 @@
 import React from 'react';
-import Ctaimg from '../../images/cta.png'
+
 import Services from "../../api/Services";
 import { Link } from 'react-router-dom'
 
@@ -38,9 +38,9 @@ const CtaSection = (props) => {
             <div className="content mt-5">
               <h3 className="service-title">{servic.title}</h3>
               <p >{servic.description}</p>
-              <Link onClick={ClickHandler} to={`/service-single/${servic.slug}`} className="arrow-link">
+              <a href={`/${servic.slug}`}onClick={ClickHandler}  className="arrow-a">
                 <i className="flaticon-right-arrow"></i>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

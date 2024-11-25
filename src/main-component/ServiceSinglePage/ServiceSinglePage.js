@@ -91,7 +91,7 @@ const ServiceSinglePage = (props) => {
                                                 <div className="content">
                                                     <h2>{serves.title}</h2>
                                                     <p>{serves.description}</p>
-                                                    <Link onClick={ClickHandler} to={`/service-single/${serves.slug}`}><i className="flaticon-right-arrow"></i></Link>
+                                                    <a href={`/${serves.slug}`} onClick={ClickHandler} ><i className="flaticon-right-arrow"></i></a>
                                                 </div>
                                             </div>
                                         </div>

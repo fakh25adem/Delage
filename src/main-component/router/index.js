@@ -1,6 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import Adjointe from '../Adjointe/Adjointe'
+import Conjointe from '../Conjointe/Conjointe'
+import Orthodontique from '../Orthodontique/Orthodontique'
+
+
 import HomePage2 from '../HomePage2/HomePage2';
 import Histoire from '../Histoire/Histoire';
 import Produit from '../Produit/Produit';
@@ -34,7 +38,9 @@ const AllRoute = () => {
         <Routes>
           {/* <Route path="/" element={<Homepage />} /> */}
           <Route path="/" element={<Acceuil />} />
-          <Route path="adjointe" element={<Adjointe />} />
+          <Route path="orthodontiques" element={<Orthodontique />} />
+          <Route path="adjointes" element={<Adjointe />} />
+          <Route path="conjointes" element={<Conjointe />} />
           <Route path="histoire" element={<Histoire />} />
           <Route path="produit" element={<Produit />} />
           <Route path="travaille" element={<Travaille />} />

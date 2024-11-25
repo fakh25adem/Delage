@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../images/ReactNew/logo.png'
+import logo from '../../images/ReactNew/logoblanc.png'
 
 
 
@@ -21,7 +21,7 @@ const Footer = (props) => {
                                 <div className="logo widget-title">
                                     <img src={logo} alt="blog" />
                                 </div>
-                                <p style={{textAlign:'justify'}}>Chez Delage, nous allions expertise et innovation pour créer des prothèses dentaires qui offrent confort et précision. Chez Delage, nous allions expertise et innovation pour créer des prothèses dentaires qui offrent confort et précision. </p>
+                                <p style={{textAlign:'justify',color:'white'}}>Chez Delage, nous allions expertise et innovation pour créer des prothèses dentaires qui offrent confort et précision. Chez Delage, nous allions expertise et innovation pour créer des prothèses dentaires qui offrent confort et précision. </p>
                                 <div className="social-widget">
                                     <ul>
                                         <li><Link onClick={ClickHandler} to="#"><i className="flaticon-facebook-app-symbol"></i></Link></li>
@@ -35,20 +35,20 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget link-widget">
                                 <div className="widget-title">
-                                    <h3>Accès direct</h3>
+                                    <h3 style={{color:'white'}}>Accès direct</h3>
                                 </div>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/">Accueil</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/produit">Nos produits</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/histoire">Notre histoire</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
+                                    <li><Link style={{color:'white'}} onClick={ClickHandler} to="/">Accueil</Link></li>
+                                    <li><Link style={{color:'white'}} onClick={ClickHandler} to="/produit">Nos produits</Link></li>
+                                    <li><Link style={{color:'white'}} onClick={ClickHandler} to="/histoire">Notre histoire</Link></li>
+                                    <li><Link style={{color:'white'}} onClick={ClickHandler} to="/contact">Contact</Link></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget link-widget s2">
                                 <div className="widget-title">
-                                    <h3>Maps</h3>
+                                    <h3 style={{color:'white'}}>Maps</h3>
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26244797.485615324!2d2.2137499!3d46.2276381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b1bb%3A0xd6574c9e0e83c700!2sFrance!5e0!3m2!1sfr!2stn!4v1600000000000!5m2!1sfr!2stn"
                                         width="90%"
@@ -66,14 +66,14 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget contact-widget">
                                 <div className="widget-title">
-                                    <h3>Contactez nous</h3>
+                                    <h3 style={{color:'white'}}>Contactez nous</h3>
                                 </div>
                                 <ul>
-                                    <li><i className="flaticon-email"></i><span>secretariat@laboratoire-delage.fr</span>
+                                    <li style={{color:'white'}}><i className="flaticon-email"></i><span>secretariat@laboratoire-delage.fr</span>
                                     </li>
-                                    <li> <i className="flaticon-telephone"></i><span>(+33)  2 35 60 01 89
+                                    <li style={{color:'white'}}> <i className="flaticon-telephone"></i><span>(+33)  2 35 60 01 89
                                     </span></li>
-                                    <li><i className="flaticon-location-1"></i><span>Rue Gustave Eiffel,
+                                    <li style={{color:'white'}}><i className="flaticon-location-1"></i><span>Rue Gustave Eiffel,
 
                                         76230 <br /> Bois-Guillaume</span></li>
                                 </ul>

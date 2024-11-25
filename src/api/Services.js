@@ -12,9 +12,13 @@ const Services = [
         id: 1,
         icon: 'flaticon-tooth',
         simage: simg1,
-        title: 'Dental Care',
+        title: 'Conjointes',
         description: 'Les prothèses conjointes en céramique sont des restaurations dentaires esthétiques, biocompatibles et aussi durables',
-        slug: 'Dental-Care'
+        slug: 'conjointes'
+
+
+
+
     },
     {
         id: 2,
@@ -22,7 +26,7 @@ const Services = [
         simage: simg2,
         title: 'Orthodontie',
         description: 'Les appareils orthodontiques sont des dispositifs utilisés pour corriger les mauvaises positionsdes dents et des mâchoires',
-        slug: 'Pharmacology'
+        slug: 'orthodontiques'
     },
     {
         id: 3,
@@ -30,7 +34,7 @@ const Services = [
         simage: simg3,
         title: 'Prothèses adjointes',
         description: 'Les prothèses adjointes complètes, souvent appelées dentiers, Les prothèses adjointescomplètes, souvent appelées dentiers',
-        slug: 'Orthopedic'
+        slug: 'adjointes'
     },
    
 

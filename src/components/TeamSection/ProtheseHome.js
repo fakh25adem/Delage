@@ -5,7 +5,7 @@ function Protheses() {
       <div className="row" style={{padding:'20px'}}>
         {/* Bloc 1 */}
         <div className="col-md-6 col-lg-4 ">
-          <div
+        <a href='/conjointes'>   <div
             className="prothese-card  d-flex align-items-center justify-content-center text-center"
             style={{
               backgroundSize: 'cover',
@@ -16,15 +16,18 @@ function Protheses() {
               fontWeight: 'bold',
             }}
           >
+
             <h3  style={{
               color: 'white', fontSize:'40px'
             }} >Prothèses Conjointes</h3>
+           
           </div>
+          </a>
         </div>
 
         {/* Bloc 2 */}
         <div className="col-md-6 col-lg-4 ">
-          <div
+        <a href='/adjointes'><div
             className="prothese-card2  d-flex align-items-center justify-content-center text-center"
             style={{
               backgroundSize: 'cover',
@@ -38,11 +41,12 @@ function Protheses() {
               color: 'white',fontSize:'40px'
             }}>Prothèses Adjointes</h3>
           </div>
+          </a>
         </div>
 
         {/* Bloc 3 */}
         <div className="col-md-6 col-lg-4">
-          <div
+        <a href='/orthodontiques'><div
             className="prothese-card3  d-flex align-items-center justify-content-center text-center"
             style={{
               backgroundSize: 'cover',
@@ -56,6 +60,7 @@ function Protheses() {
               color: 'white',fontSize:'40px'
             }}>Appareils Orthodontiques</h3>
           </div>
+          </a>
         </div>
       </div>
    
